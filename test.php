@@ -8,7 +8,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 mysqli_set_charset($conn,"utf8mb4_unicode_ci");
-header('Content-Type: text/html; charset=utf8mb4_unicode_ci');
+//header('Content-Type: text/html; charset=utf8mb4_unicode_ci');
 
  	  $file1 = "https://www.wsduniya.com/watch/tutti-yaari-download-whatsapp-status-inder-chahal-1699/";
 	  	$doc1 = new DOMDocument();
